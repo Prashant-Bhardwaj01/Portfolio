@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Churn Predictor",
+    "description": "Built a churn prediction model for the banking sector using machine learning techniques. Trained and evaluated the model on a dataset of 1 lakh+ customer records stored in MySQL.",
+    "category": "Machine Learning",
+    "tech": ["Python", "Scikit-learn", "MySQL", "Excel"],
+    "features": ["Data preprocessing & feature engineering", "Model tuning with age, salary, and credit score", "Excel dashboards for churn trends and customer segments"],
+    "github": "https://github.com/Prashant-Bhardwaj01/Churn_Prediction",
+    "demo": "",
+    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&q=80",
+    "duration": "Aug 2025 – Nov 2025"
+  },
+  {
+    "id": 2,
+    "title": "Weather Forecasting",
+    "description": "Interactive Streamlit application for region-wise 24-hour weather forecasting. Applied Multilinear Regression, Random Forest (R² = 0.99), and LSTM models to capture temporal dependencies.",
+    "category": "Machine Learning",
+    "tech": ["Python", "Pandas", "NumPy", "Scikit-learn", "TensorFlow/Keras", "LSTM", "Streamlit", "Power BI"],
+    "features": ["Baseline & non-linear weather prediction", "LSTM model for time-series data", "Power BI dashboard for insights", "Streamlit region-wise forecast app"],
+    "github": "https://github.com/Prashant-Bhardwaj01/Weather-Forecasting",
+    "demo": "",
+    "image": "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=600&q=80",
+    "duration": "Dec 2024 – Mar 2025"
+  },
+  {
+    "id": 3,
+    "title": "Student Management System",
+    "description": "Developed a comprehensive CLI-based student management system to handle student records and administration interactively. Utilized Maven as a DevOps tool for build automation and dependency management.",
+    "category": "DevOps",
+    "tech": ["Java", "Maven", "MySQL"],
+    "features": ["Interactive CLI interface", "Student record management", "Build automation with Maven"],
+    "github": "https://github.com/Prashant-Bhardwaj01/Student-Management-System",
+    "demo": "",
+    "image": "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?w=600&q=80",
+    "duration": "2023 - 2024"
+  }
+]
