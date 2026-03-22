@@ -96,7 +96,7 @@ export default function Hero() {
             <div className="relative">
               <div className="w-56 h-56 sm:w-72 sm:h-72 rounded-full bg-gradient-to-br from-primary-500 to-accent p-1 glow animate-float">
                 <img
-                  src="/Personal_Img.jpeg"
+                  src="./Personal_Img.jpeg"
                   alt={personal.name}
                   className="w-full h-full rounded-full object-cover bg-light-card dark:bg-dark-card"
                 />

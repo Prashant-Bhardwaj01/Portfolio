@@ -11,7 +11,7 @@ const personal = {
   linkedin: 'https://www.linkedin.com/in/prashant-bhardwaj221',
   leetcode: 'https://leetcode.com/u/mr_bhardwaj11/',
   hackerrank: 'https://www.hackerrank.com/profile/prashantbhardw18',
-  resume: '/specializedCV.pdf',
+  resume: './specializedCV.pdf',
   githubUsername: 'Prashant-Bhardwaj01',
 };
 
