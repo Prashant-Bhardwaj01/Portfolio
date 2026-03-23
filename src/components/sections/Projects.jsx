@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { FiGithub, FiExternalLink, FiCalendar } from 'react-icons/fi';
 import projects from '../../data/projects.json';
 
-const categories = ['All', 'Machine Learning', 'Web Development', 'DevOps', 'DSA'];
+const categories = ['All', 'Machine Learning', 'Web Development', 'DevOps'];
 
 export default function Projects() {
   const [active, setActive] = useState('All');
