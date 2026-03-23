@@ -12,10 +12,12 @@ import CompetitiveProgramming from './components/sections/CompetitiveProgramming
 import GitHubStats from './components/sections/GitHubStats';
 import Contact from './components/sections/Contact';
 import Resume from './components/sections/Resume';
+import BackgroundAnimation from './components/BackgroundAnimation';
 
 function Portfolio() {
   return (
     <>
+      <BackgroundAnimation />
       <Navbar />
       <main>
         <Hero />

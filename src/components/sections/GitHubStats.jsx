@@ -4,9 +4,19 @@ import personal from '../../data/personal';
 import { useTheme } from '../../context/ThemeContext';
 
 export default function GitHubStats() {
-  const { dark } = useTheme();
+  const { theme: currentTheme } = useTheme();
   const u = personal.githubUsername;
-  const theme = dark ? 'dark' : 'default';
+  
+  const themeMap = {
+    light: 'default',
+    dark: 'dark',
+    midnight: 'tokyonight',
+    emerald: 'merko',
+    sunset: 'radical',
+    lavender: 'dracula'
+  };
+
+  const githubTheme = themeMap[currentTheme] || 'dark';
 
   return (
     <section id="github-stats">
@@ -22,7 +32,7 @@ export default function GitHubStats() {
               className="card p-4 flex items-center justify-center overflow-hidden"
             >
               <img
-                src={`https://github-readme-stats.vercel.app/api?username=${u}&show_icons=true&theme=${theme}&hide_border=true&bg_color=transparent&count_private=true`}
+                src={`https://github-readme-stats.vercel.app/api?username=${u}&show_icons=true&theme=${githubTheme}&hide_border=true&bg_color=transparent&count_private=true`}
                 alt="GitHub Stats"
                 className="max-w-full"
                 loading="lazy"
@@ -35,7 +45,7 @@ export default function GitHubStats() {
               className="card p-4 flex items-center justify-center overflow-hidden"
             >
               <img
-                src={`https://github-readme-stats.vercel.app/api/top-langs/?username=${u}&layout=compact&theme=${theme}&hide_border=true&bg_color=transparent`}
+                src={`https://github-readme-stats.vercel.app/api/top-langs/?username=${u}&layout=compact&theme=${githubTheme}&hide_border=true&bg_color=transparent`}
                 alt="Top Languages"
                 className="max-w-full"
                 loading="lazy"
