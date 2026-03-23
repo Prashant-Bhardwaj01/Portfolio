@@ -133,8 +133,8 @@
   }
   .tag {
     background-color: var(--primary-500);
-    @apply text-xs font-medium px-3 py-1 rounded-full bg-opacity-20 text-white;
-    color: var(--primary-500);
+    color: white;
+    @apply text-xs font-medium px-3 py-1 rounded-full shadow-sm;
   }
   .section-container {
     @apply max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-20;

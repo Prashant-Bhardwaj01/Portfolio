@@ -31,8 +31,8 @@ export default function Contact() {
     { icon: FiMail,   label: 'Email',    value: personal.email,    href: `mailto:${personal.email}` },
     { icon: FiPhone,  label: 'Phone',    value: personal.phone,    href: `tel:${personal.phone}` },
     { icon: FiMapPin, label: 'Location', value: personal.location, href: null },
-    { icon: FiGithub, label: 'GitHub',   value: 'github.com/yourusername', href: personal.github },
-    { icon: FiLinkedin, label: 'LinkedIn', value: 'linkedin.com/in/yourusername', href: personal.linkedin },
+    { icon: FiGithub, label: 'GitHub',   value: personal.github.replace('https://', ''), href: personal.github },
+    { icon: FiLinkedin, label: 'LinkedIn', value: personal.linkedin.replace('https://www.', '').replace('https://', ''), href: personal.linkedin },
   ];
 
   return (

@@ -29,7 +29,7 @@ export default function Footer() {
           {/* Branding */}
           <div className="text-center md:text-left">
             <p className="text-xl font-bold gradient-text font-mono">&lt;{personal.name.split(' ')[0]} /&gt;</p>
-            <p className="text-sm text-slate-400 mt-1">B.Tech CSE · Full Stack · ML</p>
+            <p className="text-sm text-slate-400 mt-1">B.Tech CSE · DS · AI & ML</p>
           </div>
 
           {/* Social Links */}
